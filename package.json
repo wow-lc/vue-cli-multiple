@@ -1,0 +1,29 @@
+{
+  "bin": {
+    "vmc": "bin/vue-cli-multiple"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleepq123/vue-cli-multiple.git"
+  },
+  "name": "vue-cli-multiple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "newlyborn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sleepq123/vue-cli-multiple/issues"
+  },
+  "homepage": "https://github.com/sleepq123",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.2.0",
+    "ora": "^4.0.4"
+  }
+}
