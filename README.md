@@ -10,7 +10,7 @@ npm install vue-cli-multiple -g
 
 ## 使用
 ```
-vmc create <project-name>
+vcm create <project-name>
 npm run serve
 ```
 
