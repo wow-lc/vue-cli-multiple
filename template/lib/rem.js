@@ -6,7 +6,7 @@ function setRem() {
   //得到html的Dom元素
   let htmlDom = document.getElementsByTagName("html")[0];
   //设置根元素字体大小
-  htmlDom.style.fontSize = htmlWidth / 37.5 + "px";
+  htmlDom.style.fontSize = htmlWidth / <%-rootValue%> + "px";
 }
 // 初始化
 setRem();

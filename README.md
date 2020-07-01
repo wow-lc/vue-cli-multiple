@@ -9,9 +9,17 @@ npm install vue-cli-multiple -g
 ```
 
 ## 使用
+- 创建vue多页面项目
 ```
 vcm create <project-name>
+cd <project-name>
 npm run serve
 ```
 
-**更多配置详见：[vue-cli](https://cn.vuejs.org/)**
+- 添加模块
+```
+cd <your projectname>
+vcm add
+```
+
+**更多配置详见：[vue-cli](https://cli.vuejs.org/zh/)**

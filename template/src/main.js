@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import './lib/rem'
+import '../../lib/rem'
 
 Vue.config.productionTip = false
 

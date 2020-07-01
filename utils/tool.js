@@ -42,7 +42,7 @@ function mkdirsSync(dirname) {
  * @param {*} dest
  */
 function copyDirectory(src, dest) {
-    console.log(src, dest);
+    console.log('create:', dest);
     
   if (!fs.existsSync(dest)) {
     fs.mkdirSync(dest);
